@@ -1,0 +1,100 @@
+body{
+    background-image: url(bg2.jpg);
+    padding: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.content{
+    width: 1440px;
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+    width: 100%;
+    padding-bottom: 180px;
+    padding-top: 180px;
+    border-radius: 8px;
+}
+
+table{
+    width: 520px;
+    border: 1px solid hsl(30, 38%, 92%);
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(0, 0%, 100%);;
+    border-radius: 8px;
+    padding: 0px;
+}
+
+.image{
+    padding: 0px;
+}
+
+.image img{
+    width: 240px;
+    margin: -2px;
+    border-radius: 8px;
+    margin-bottom: -5px;
+}
+
+.isi{
+    padding: 0px;
+    margin: 0px;
+}
+
+.isi li{
+    margin: 15px;
+    margin-left: -10px;
+}
+
+.perfume{
+    font-family: 'montserrat';
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+}
+
+.nama{
+    font-size: 26px;
+    color: hsl(212, 21%, 14%);
+    font-weight: 300px;
+}
+
+.desc{
+    font-family: 'montserrat';
+    color: hsl(228, 12%, 48%);
+}
+
+.harga{
+    font-size: 26px;
+    font-weight: normal; 
+    color: hsl(158, 36%, 37%)
+}
+
+.harga .coret{
+    font-size: 12px;
+    display: inline;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.beli{
+    font-family: 'montserrat';
+    border: 1px solid hsl(0, 0%, 100%);;
+    background-color: hsl(158, 36%, 37%);
+    padding: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
+
+.beli a{
+    text-decoration: none;
+    color: white;
+}
+
+.beli:hover{
+    border-radius: 8px;
+    background-color: hsl(158, 40%, 23%);
+}
+
